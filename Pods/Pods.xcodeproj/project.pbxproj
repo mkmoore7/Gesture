@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1127A66AA0A968203487898076A833 /* Pods-GestureTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7422D968BAD1C25683E3614B6BB16909 /* Pods-GestureTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5328970E2667E91C73E33AA9941FECBD /* Pods-Gesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0797C0EB7A25FF5480518F26B1FF0080 /* Pods-Gesture-dummy.m */; };
+		A21227501FDF503E559BFDA2F4E8BB52 /* Pods-GestureTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C261917CD3061D5240DB756B08731B56 /* Pods-GestureTests-dummy.m */; };
+		AB7DBBC1B353D2676F52BDC5BE3B4E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ABFE00BD5B91A1AA9A6944341DFABB13 /* Pods-Gesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9148B0DB37E36A8331C10EC83FA3C2 /* Pods-Gesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA33AA69F188E2E712B4E7679E4F1A99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04878BE13CD6D1C4A286B28196059E5C /* Pods-GestureTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GestureTests-resources.sh"; sourceTree = "<group>"; };
+		0618A024F5318D708FB871590A292E5E /* Pods-Gesture-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gesture-resources.sh"; sourceTree = "<group>"; };
+		07478F776735C1C8D92B2E1B33576013 /* Pods-Gesture-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gesture-acknowledgements.plist"; sourceTree = "<group>"; };
+		0797C0EB7A25FF5480518F26B1FF0080 /* Pods-Gesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gesture-dummy.m"; sourceTree = "<group>"; };
+		2A1F4338E5EF5AEDC0285286C05DAD50 /* Pods-GestureTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GestureTests.modulemap"; sourceTree = "<group>"; };
+		5215DA26B358C59EF235FB1D5199F4A3 /* Pods_GestureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9148B0DB37E36A8331C10EC83FA3C2 /* Pods-Gesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gesture-umbrella.h"; sourceTree = "<group>"; };
+		71C39998539DFC7C9464BA1BB3B8C472 /* Pods-GestureTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7422D968BAD1C25683E3614B6BB16909 /* Pods-GestureTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GestureTests-umbrella.h"; sourceTree = "<group>"; };
+		76E23DAB15E65C9019BDEC14871D194E /* Pods-GestureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AD5A4FA45CFCDD0E31A84541D5320F /* Pods_Gesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9699710D72F94F6FF41F59AF095ACC19 /* Pods-GestureTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GestureTests-frameworks.sh"; sourceTree = "<group>"; };
+		A72C201CBF9F896D0481EDFAD7738623 /* Pods-GestureTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GestureTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8A122B3E86438A125C86DE99668CD83 /* Pods-Gesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gesture.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0FA80D8D8C8157CF05AD8683C31AE6 /* Pods-GestureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureTests.release.xcconfig"; sourceTree = "<group>"; };
+		B70978E5B9AE5A0E3DD3A01CE75D9F08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C261917CD3061D5240DB756B08731B56 /* Pods-GestureTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GestureTests-dummy.m"; sourceTree = "<group>"; };
+		C285CA5415792748BA1BCF16F6D4CE0B /* Pods-Gesture-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gesture-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5555DD8112AC92D6E204B8C169A45A8 /* Pods-Gesture-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gesture-frameworks.sh"; sourceTree = "<group>"; };
+		F027673A6D3212A473BEAB922ABEC150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CAD69CF690EA4DB0D41DB076EB24AA /* Pods-Gesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gesture.release.xcconfig"; sourceTree = "<group>"; };
+		F6077ABB0F1CBEC58925A035F3482D7E /* Pods-Gesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Gesture.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58784E2DD359FF0A2ACCDB5BE0EE06BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA33AA69F188E2E712B4E7679E4F1A99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781F613069C1A39B38006B1563F52522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7DBBC1B353D2676F52BDC5BE3B4E3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48649D9971460AA9C06B5D193AC061A1 /* Pods-GestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				F027673A6D3212A473BEAB922ABEC150 /* Info.plist */,
+				2A1F4338E5EF5AEDC0285286C05DAD50 /* Pods-GestureTests.modulemap */,
+				A72C201CBF9F896D0481EDFAD7738623 /* Pods-GestureTests-acknowledgements.markdown */,
+				71C39998539DFC7C9464BA1BB3B8C472 /* Pods-GestureTests-acknowledgements.plist */,
+				C261917CD3061D5240DB756B08731B56 /* Pods-GestureTests-dummy.m */,
+				9699710D72F94F6FF41F59AF095ACC19 /* Pods-GestureTests-frameworks.sh */,
+				04878BE13CD6D1C4A286B28196059E5C /* Pods-GestureTests-resources.sh */,
+				7422D968BAD1C25683E3614B6BB16909 /* Pods-GestureTests-umbrella.h */,
+				76E23DAB15E65C9019BDEC14871D194E /* Pods-GestureTests.debug.xcconfig */,
+				AE0FA80D8D8C8157CF05AD8683C31AE6 /* Pods-GestureTests.release.xcconfig */,
+			);
+			name = "Pods-GestureTests";
+			path = "Target Support Files/Pods-GestureTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ED33DCBBF547201FFE4826BB9BD12674 /* Products */,
+				B5512F2C904E83191ACFD8AC2E9E57E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5512F2C904E83191ACFD8AC2E9E57E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF75B08EAE40C461877DF59871DE8337 /* Pods-Gesture */,
+				48649D9971460AA9C06B5D193AC061A1 /* Pods-GestureTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED33DCBBF547201FFE4826BB9BD12674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94AD5A4FA45CFCDD0E31A84541D5320F /* Pods_Gesture.framework */,
+				5215DA26B358C59EF235FB1D5199F4A3 /* Pods_GestureTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF75B08EAE40C461877DF59871DE8337 /* Pods-Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				B70978E5B9AE5A0E3DD3A01CE75D9F08 /* Info.plist */,
+				F6077ABB0F1CBEC58925A035F3482D7E /* Pods-Gesture.modulemap */,
+				C285CA5415792748BA1BCF16F6D4CE0B /* Pods-Gesture-acknowledgements.markdown */,
+				07478F776735C1C8D92B2E1B33576013 /* Pods-Gesture-acknowledgements.plist */,
+				0797C0EB7A25FF5480518F26B1FF0080 /* Pods-Gesture-dummy.m */,
+				D5555DD8112AC92D6E204B8C169A45A8 /* Pods-Gesture-frameworks.sh */,
+				0618A024F5318D708FB871590A292E5E /* Pods-Gesture-resources.sh */,
+				6F9148B0DB37E36A8331C10EC83FA3C2 /* Pods-Gesture-umbrella.h */,
+				A8A122B3E86438A125C86DE99668CD83 /* Pods-Gesture.debug.xcconfig */,
+				F1CAD69CF690EA4DB0D41DB076EB24AA /* Pods-Gesture.release.xcconfig */,
+			);
+			name = "Pods-Gesture";
+			path = "Target Support Files/Pods-Gesture";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20314B1A87182CDA6B7C18EF1EF49DB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFE00BD5B91A1AA9A6944341DFABB13 /* Pods-Gesture-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C30E51C0249367A74197A4590FEA05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1127A66AA0A968203487898076A833 /* Pods-GestureTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04DE8600782B430C3ED4BDC84E0A3B0B /* Pods-GestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9496DDD3330D78E62448B2E2363D4D2C /* Build configuration list for PBXNativeTarget "Pods-GestureTests" */;
+			buildPhases = (
+				BC07116B4CAD4B73905D1D61344ACC0D /* Sources */,
+				58784E2DD359FF0A2ACCDB5BE0EE06BE /* Frameworks */,
+				C9C30E51C0249367A74197A4590FEA05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GestureTests";
+			productName = "Pods-GestureTests";
+			productReference = 5215DA26B358C59EF235FB1D5199F4A3 /* Pods_GestureTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		269AFE4C33607B119163A9A5D72EB326 /* Pods-Gesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAB1287DAE12F53F9D93C4F9A518B16 /* Build configuration list for PBXNativeTarget "Pods-Gesture" */;
+			buildPhases = (
+				EADBB54579FB40E80C4168EF7C3CAF8A /* Sources */,
+				781F613069C1A39B38006B1563F52522 /* Frameworks */,
+				20314B1A87182CDA6B7C18EF1EF49DB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Gesture";
+			productName = "Pods-Gesture";
+			productReference = 94AD5A4FA45CFCDD0E31A84541D5320F /* Pods_Gesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ED33DCBBF547201FFE4826BB9BD12674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269AFE4C33607B119163A9A5D72EB326 /* Pods-Gesture */,
+				04DE8600782B430C3ED4BDC84E0A3B0B /* Pods-GestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC07116B4CAD4B73905D1D61344ACC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21227501FDF503E559BFDA2F4E8BB52 /* Pods-GestureTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADBB54579FB40E80C4168EF7C3CAF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5328970E2667E91C73E33AA9941FECBD /* Pods-Gesture-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7CF371DE1089F5ECED6E3C82CAA41C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A122B3E86438A125C86DE99668CD83 /* Pods-Gesture.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gesture/Pods-Gesture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84524D424AA65E20D02534F2C688BD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0FA80D8D8C8157CF05AD8683C31AE6 /* Pods-GestureTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GestureTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GestureTests/Pods-GestureTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GestureTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAE3BB13A8E067D2B70E47EE66BE1D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E23DAB15E65C9019BDEC14871D194E /* Pods-GestureTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GestureTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GestureTests/Pods-GestureTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GestureTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2E7033FC959AAC36F7199180A946922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CAD69CF690EA4DB0D41DB076EB24AA /* Pods-Gesture.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gesture/Pods-Gesture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAB1287DAE12F53F9D93C4F9A518B16 /* Build configuration list for PBXNativeTarget "Pods-Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF371DE1089F5ECED6E3C82CAA41C0F /* Debug */,
+				D2E7033FC959AAC36F7199180A946922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9496DDD3330D78E62448B2E2363D4D2C /* Build configuration list for PBXNativeTarget "Pods-GestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE3BB13A8E067D2B70E47EE66BE1D9F /* Debug */,
+				84524D424AA65E20D02534F2C688BD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
